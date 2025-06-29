@@ -1,0 +1,54 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Piano for Beginners",
+      "slug": "piano-for-beginners",
+      "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
+      "price": 79.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/courses/piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Mastering the Drums",
+      "slug": "mastering-the-drums",
+      "description": "Unlock the rhythm and groove by mastering essential drumming techniques.",
+      "price": 89.99,
+      "instructor": "Mike Johnson",
+      "isFeatured": true,
+      "image": "/courses/drums.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Violin Essentials",
+      "slug": "violin-essentials",
+      "description": "Learn how to play beautiful melodies with our step-by-step violin course.",
+      "price": 109.99,
+      "instructor": "Emily Clark",
+      "isFeatured": false,
+      "image": "/courses/violin.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Singing Techniques 101",
+      "slug": "singing-techniques-101",
+      "description": "Improve your vocal range, control, and expression with professional singing techniques.",
+      "price": 69.99,
+      "instructor": "Laura Adams",
+      "isFeatured": true,
+      "image": "/courses/singing.jpg"
+    }
+  ]
+}
