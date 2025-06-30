@@ -17,7 +17,7 @@
       "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
       "price": 79.99,
       "instructor": "Jane Smith",
-      "isFeatured": false,
+      "isFeatured": true,
       "image": "/courses/piano.jpg"
     },
     {
@@ -37,7 +37,7 @@
       "description": "Learn how to play beautiful melodies with our step-by-step violin course.",
       "price": 109.99,
       "instructor": "Emily Clark",
-      "isFeatured": false,
+      "isFeatured": true,
       "image": "/courses/violin.jpg"
     },
     {

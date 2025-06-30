@@ -1,3 +1,4 @@
+"use client"
 import { a } from "framer-motion/client"
 import courseData from "../data/music_courses.json"
 import Link from "next/link"
@@ -17,6 +18,8 @@ interface Course{
 function FeaturedCourses() {
     const featuredCourses = courseData.courses.filter((course:Course)=> course.isFeatured)
 
+    
+
     return (
         <div className="py-12 bg-gray-900">
             <div className="text-center">
@@ -30,7 +33,13 @@ function FeaturedCourses() {
                 <div className="grid grid-cols-1 sm:grids-cols-2 lg:grid-cols-3 gap-8 justify center">
                     {featuredCourses.map((course:Course) => (
                         <div key = {course.id} className="flex justify-center">
-                            <BackgroundGradient>test</BackgroundGradient>
+                            <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
+                                <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
+                                    <p className="text-lg sm:text-xl text-white mt-2 mb-2 dark:test-neutral-200">{course.title}</p>
+                                    <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
+                                    <Link href={`/courses/${course.slug}`}> Learn More</Link>
+                                </div>
+                            </BackgroundGradient>
                         </div>
                     ))}
                 </div>
